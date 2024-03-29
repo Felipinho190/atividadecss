@@ -1,0 +1,111 @@
+body{
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: black;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#menu{
+    background-color:aliceblue;
+    padding: 20px;  
+    text-align: center;
+}
+#menu a{
+    text-decoration: none;
+    color: green;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu li{
+    
+    text-align: center;
+    display:inline;
+    margin: 5px;
+        
+}
+#rodape{  
+    font-size: 12px;
+    list-style-type:none;
+    border-left: 5px solid red;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+#menu li :hover{
+    color: coral;
+    text-align: left;
+}
+
+#menu ul{
+    block-size: 20px;
+    background:gainsboro ;
+}
+#publicacao{
+    font-size: 10;
+}
+#ifg{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#mooc{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 12;
+    font-style: italic;
+    text-align: right;
+
+}
+.intro:first-letter {
+   color: green;
+   font-size:  200%;
+
+}
+p{
+    font-size: 12;
+    text-align: justify;
+
+}
+img{
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cursos{
+    color: red;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+#cursos:hover{
+    color: coral;
+    text-decoration:underline;
+}
+
+body h1{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+
+body h2{
+    color: coral;
+    font-size: 16px;
+    text-align: left;
+}
